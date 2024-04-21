@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Missionaries and cannibals game</title>
+    </head>
+    <body>
+        <section>
+            <div class="info">
+                <h1>Missionaries and cannibals game</h1>
+                <p>
+                    In the missionaries and cannibals problem,
+                    three missionaries and three cannibals must cross a river using a boat which can carry at most two people,
+                    under the constraint that, for both banks, if there are missionaries present on the bank,
+                    they cannot be outnumbered by cannibals (if they were, the cannibals would eat the missionaries).
+                    The boat cannot cross the river by itself with no people on board.
+                </p>
+            </div>
+        </section>
+
+        <button class="go">Go</button>
+        
+        <div class="missionaries-and-cannibals">
+            <div class="left-side">
+                <div class="missionaries">
+                    <img src="./imgs/missionary.jpg" alt="">
+                    <img src="./imgs/missionary.jpg" alt="">
+                    <img src="./imgs/missionary.jpg" alt="">
+                </div>
+                <div class="cannibals">
+                    <img src="./imgs/cannibal.png" alt="">
+                    <img src="./imgs/cannibal.png" alt="">
+                    <img src="./imgs/cannibal.png" alt="">
+                </div>
+            </div>
+            <div class="sea">
+                <div class="boat"></div>
+            </div>
+            <div class="right-side">
+                <div class="missionaries"></div>
+                <div class="cannibals"></div>
+            </div>
+        </div>
+
+        <div class="lose">
+            <div class="info">
+                <p>You're lose !</p>
+                <button class="play-again">Play again</button>
+            </div>
+        </div>
+
+        <div class="win">
+            <div class="info">
+                <p>Congratulations, You're win</p>
+                <button class="play-again">Play again</button>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
